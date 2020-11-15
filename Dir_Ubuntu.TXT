@@ -1,4 +1,4 @@
-/mnt/d/DOCUMENT/py4e/Ubuntu
+D:\DOCUMENT\py4e\Ubuntu\git
 hi
 How 
 are
