@@ -3,9 +3,9 @@
 #!/usr/bin/env python3
 import os
 while True:
-    req_path = input("\nEnter Directory [Path should end with \ ]: ")
-    lst_of_Files = os.listdir(req_path)
-    lst_len = len(os.listdir(req_path))
+    req_path = input("\nEnter Directory [Path should end with \ ]: ")     #input path for particular directory
+    lst_of_Files = os.listdir(req_path)                                   #List of Files in the directory
+    lst_len = len(os.listdir(req_path))                                   #Length of the list of files
     print(lst_of_Files)
     print(f"No. of Files in {req_path} : {lst_len}")
 
