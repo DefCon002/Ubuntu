@@ -33,7 +33,10 @@ while True:
                     else:
                         len_F = len(req_file)
                         print(f"\nRequired Files\n{req_file}")
-                        print("No.of Files: ",len_F)
+                        print("No.of Files: ", len_F,"\n")
+                        for each_file in req_file:
+                            print(each_file)
+
                         handle=input("[To Open File 'Y'| Main Menu 'M'| ENTER to Go Back | To Exit 'Q']\n")
                         if handle.upper() == "Y":
                             handle_name = input("\nEnter file name: ")
