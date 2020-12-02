@@ -25,7 +25,7 @@ india_tz = pytz.timezone('Asia/Kolkata')
 ind = india_tz.localize(dt_india)
 print("IND LOCAL : ",ind)
 
-#TO PRINT IN FORMAT, FOR MORE CHECK PYTHON DOCUMENTATION
+#TO PRINT IN FORMAT, FOR MORE CHECK PYTHON DOCUMENTATION @ https://docs.python.org/3.5/library/datetime.html#strftime-and-strptime-behavior
 #print(dt_india.strftime('%B %D, %Y'))
 #print(dt_india.strftime('%B %d, %Y'))
 
